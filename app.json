@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "noxtik",
+    "slug": "noxtik",
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "scheme": "noxtik",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSPhotoLibraryUsageDescription": "Hãy cho phép $(PRODUCT_NAME) truy cập ảnh của bạn.",
+        "NSPhotoLibraryAddUsageDescription": "Cho phép $(PRODUCT_NAME) truy cập ảnh của bạn."
+      },
+      "bundleIdentifier": "com.noxinfinity.noxtik"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.noxinfinity.noxtik"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3efa6c7-a8d9-4f57-8d38-0b86fdbdc384"
+      }
+    },
+    "owner": "n0xgg04",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Manrope-Regular.ttf",
+            "./assets/fonts/Manrope-Bold.ttf",
+            "./assets/fonts/Manrope-SemiBold.ttf"
+          ]
+        }
+      ],
+      "expo-localization",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Hãy cho phép $(PRODUCT_NAME) truy cập ảnh của bạn.",
+          "savePhotosPermission": "Cho phép $(PRODUCT_NAME) truy cập ảnh của bạn.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "locales": {
+      "vi": "./localization/infos/vietnamese.json",
+      "en-US": "./localization/infos/english.json"
+    }
+  }
+}

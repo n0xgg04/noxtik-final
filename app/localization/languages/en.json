@@ -1,0 +1,15 @@
+{
+  "login_screen_greeting": "Welcome!",
+  "feed_screen_app_bar_title": "Load video",
+  "home_zone_bottom_nav_bar_feed": "Load video",
+  "home_zone_bottom_nav_bar_history": "History",
+  "home_zone_bottom_nav_bar_guide": "Guide",
+  "history_screen_app_bar_title": "Download history",
+  "guide_screen_app_bar_title": "User Guide",
+  "home_url_label": "Link to video",
+  "home_download_btn": "Download",
+  "paste": "Paste from clipboard",
+  "not_exists": "The link does not exist!",
+  "download_success": "Saved to collection, you can exit.",
+  "thanks": "Thank you very much <3"
+}

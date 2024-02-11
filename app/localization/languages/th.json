@@ -1,0 +1,15 @@
+{
+  "login_screen_greeting": "ยินดีต้อนรับ!",
+  "feed_screen_app_bar_title": "โหลดวิดีโอ",
+  "home_zone_bottom_nav_bar_feed": "โหลดวิดีโอ",
+  "home_zone_bottom_nav_bar_history": "ประวัติศาสตร์",
+  "home_zone_bottom_nav_bar_guide": "ไกด์",
+  "history_screen_app_bar_title": "ประวัติการดาวน์โหลด",
+  "guide_screen_app_bar_title": "คู่มือผู้ใช้",
+  "home_url_label": "ลิงก์ไปยังวิดีโอ",
+  "home_download_btn": "ดาวน์โหลด",
+  "paste": "วางจากคลิปบอร์ด",
+  "not_exists": "ไม่มีลิงก์นี้!",
+  "download_success": "บันทึกไปยังคอลเลกชันแล้ว คุณสามารถออกได้",
+  "ขอบคุณ": "ขอบคุณมาก <3"
+}

@@ -1,0 +1,15 @@
+{
+  "login_screen_greeting": "Chào mừng bạn !",
+  "feed_screen_app_bar_title": "Tải video",
+  "home_zone_bottom_nav_bar_feed": "Tải video",
+  "home_zone_bottom_nav_bar_history": "Lịch sử",
+  "home_zone_bottom_nav_bar_guide": "Hướng dẫn",
+  "history_screen_app_bar_title": "Lịch sử tải xuống",
+  "guide_screen_app_bar_title": "Hướng dẫn sử dụng",
+  "home_url_label": "Liên kết tới video",
+  "home_download_btn": "Tải xuống",
+  "paste": "Dán từ clipboard",
+  "not_exists": "Liên kết không tồn tại!",
+  "download_success": "Đã lưu vào bộ sưu tập, bạn có thể thoát.",
+  "thanks": "Cảm ơn bạn nhiều nha <3"
+}
